@@ -1,0 +1,24 @@
+[project]
+name = "02-embeddings-and-rag"
+version = "0.1.0"
+description = "Embeddings and RAG"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.28",
+    "langgraph>=0.6.2",
+    "matplotlib>=3.10.0",
+    "nump>=5.5.5.5",
+    "openai>=1.59.7",
+    "pandas>=2.2.3",
+    "plotly>=5.24.1",
+    "pymupdf>=1.26.3",
+    "python-dotenv>=1.0.1",
+    "qdrant-client>=1.15.0",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
+    "tiktoken>=0.9.0",
+]
