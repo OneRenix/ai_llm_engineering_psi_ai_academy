@@ -1,0 +1,25 @@
+[project]
+# Project metadata
+name = "day-8"                    # Project name
+version = "0.1.0"                 # Project version
+description = "MCP (Model Context Protocol) Server with AI-powered tools"  # Project description
+readme = "README.md"              # README file location
+requires-python = ">=3.13"        # Minimum Python version required
+
+# Project dependencies
+dependencies = [
+    # MCP (Model Context Protocol) framework for building AI tool servers
+    "fastmcp>=2.11.2",
+    
+    # Pydantic AI for AI model integration and agent management
+    "pydantic-ai>=0.6.2",
+    
+    # Google AI integration for Gemini model access
+    "pydantic-ai-slim[google]>=0.6.2",
+    
+    # HTTP client library for making requests to the MCP server
+    "requests>=2.31.0",
+    
+    # ASGI server for running the HTTP version of the MCP server
+    "uvicorn>=0.24.0",
+]
