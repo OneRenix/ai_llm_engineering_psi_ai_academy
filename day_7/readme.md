@@ -1,12 +1,24 @@
 # Multi-Agent RAG Workflow with LangGraph
 
-This notebook demonstrates how to build a multi-agent workflow for Retrieval-Augmented Generation (RAG) using [LangGraph](https://langchain-ai.github.io/langgraph/), LangChain Expression Language (LCEL), and OpenAI models. The workflow follows a hierarchical team structure inspired by the [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/pdf/2308.08155) paper.
+This notebook demonstrates how to build a multi-agent workflow for Retrieval-Augmented Generation (RAG) using [LangGraph](https://langchain-ai.github.io/langgraph/), LangChain Expression Language (LCEL), and various agent tools.
 
 ## Overview
 
 - **Multi-Agent Teams:** Implements a system where multiple agents (each with their own specialty) collaborate using a supervisor agent to route tasks.
 - **Retrieval-Augmented Generation (RAG):** Combines document retrieval and LLM-powered answer generation.
 - **LangGraph:** Used to build modular, stateful workflows that combine agents and tools as nodes in a graph.
+
+---
+
+### Supervisor Agent Role in the Workflow Diagrams
+
+#### ![First Graph](my_1st_graph.png)
+In `my_1st_graph.png`, the supervisor agent acts as the central coordinator. It receives user queries and determines which specialized agent (e.g., document retriever, web search agent, or answer generator) is most suited for the task. The supervisor routes the query to the appropriate agent, collects the results, and then returns a unified response to the user. This ensures clear task delegation and efficient execution for simple or linear workflows.
+
+#### ![Expanded Graph](my_graph.png)
+In `my_graph.png`, the supervisor agent’s role is expanded for more complex workflows. Here, the supervisor not only routes between multiple specialized agents but also manages multi-step reasoning and collaboration. It can sequence tasks, combine outputs from different agents, and even trigger agents based on intermediate results. This allows for sophisticated multi-agent collaboration, dynamic branching, and robust handling of complex research or synthesis tasks.
+
+---
 
 ## Features
 
@@ -38,10 +50,6 @@ This notebook demonstrates how to build a multi-agent workflow for Retrieval-Aug
 4. **Run the notebook:**
    - Step through each cell for document loading, chunking, embedding, vector storage, and agent workflow setup.
 
-## Activities
-
-- **Activity 1:** Extend the notebook to dynamically fetch Arxiv papers instead of hardcoding PDFs.
-- **Activity 2:** Add more agents, tools, and supervisor logic to handle increasingly complex workflows.
 
 ## References
 
