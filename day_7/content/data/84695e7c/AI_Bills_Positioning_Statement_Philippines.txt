@@ -1,0 +1,25 @@
+### Positioning Statement on AI Bills in the Philippines
+
+The Philippines is at a critical juncture in its approach to artificial intelligence (AI) with the current proposals for AI legislation, notably the **AI Regulation Act** and the formation of the **Philippine Council on Artificial Intelligence**. These initiatives represent a significant shift towards a structured regulatory environment that aims to balance innovation with ethical considerations in AI development and use.
+
+### Imposition of Penalties
+
+A crucial component of these legislative efforts is the establishment of penalties for the development and use of harmful AI technologies, such as lethal autonomous weapon systems (LAWS). This effort reflects global regulatory trends, particularly highlighted by the **European Union's AI Act**, which aims to mitigate potential risks linked to AI. The proposed Philippine bills aim to ensure that AI systems adhere to ethical standards, protecting individual rights while promoting responsible innovation. The inclusion of administrative penalties for non-compliance with regulatory standards is designed to enforce accountability and deter the deployment of harmful technologies.
+
+### Directories for AI Applications
+
+The proposed AI bills include plans for the National Registry of AI Systems, which requires that all entities involved in AI development, deployment, or sale in the Philippines register their systems. This registry not only provides a framework for oversight but also enhances transparency regarding AI applications within the country. A public portal to report harms and access registered AI systems may foster greater public trust and regulatory compliance.
+
+However, the potential implementation of a comprehensive directory raises concerns about feasibility and the risk of stifling innovation. While such registries can provide valuable oversight, there is a legitimate risk that excessive regulatory requirements could hinder technological development, especially for smaller enterprises and startups that may lack the resources to navigate complex registration processes. There must be a balance that enables innovation to flourish while ensuring safety and ethical compliance.
+
+### Global Comparisons 
+
+In the global landscape, countries are approaching AI governance with diverse strategies. The European Union is pioneering comprehensive regulation, while other countries are exploring frameworks tailored to their specific contexts. The Philippines can benefit from these international experiences, particularly in terms of balancing regulatory oversight with the need to foster an environment conducive to innovation. 
+
+Globally, concerns about algorithmic bias, data privacy, and the risks posed by advanced AI systems—such as the advent of Artificial Superintelligence—are pivotal in shaping responsible AI governance. The Philippine regulations must align with these international discussions and address local needs for ethical AI development.
+
+### Conclusion
+
+As the Philippines considers the adoption of these AI bills, it is imperative to carefully evaluate the implications of penalties, operational oversight, and the potential establishment of registries. The aim should be to develop a regulatory framework that not only safeguards ethical practices but also promotes a vibrant AI ecosystem conducive to growth and innovation. Close consultation with stakeholders across sectors will be vital in achieving these objectives, ensuring that the evolving AI landscape in the Philippines aligns with both local priorities and global standards for responsible AI governance.
+
+Overall, the proposed legislation marks an important step forward in the country's ambition to harness AI for public benefit while protecting individual rights and societal values. It is in navigating this balance that the Philippines will truly forge a pathway for progressive and responsible AI development.
