@@ -1,6 +1,6 @@
 # AI/LLM Engineering Course
 
-This repository contains Python notebooks and supplementary materials for the PSI AI Academy's course on AI/LLM Engineering. Designed as a hands-on companion to the lectures, it provides practical guides, examples, and resources for building, evaluating, and deploying LLM-powered applications.
+This repository contains Python notebooks and supplementary materials for the PSI AI Academy's course on AI/LLM Engineering. Designed as a hands-on companion to the lectures, it provides practical guidance and code samples for each module.
 
 ## Folder Structure
 
@@ -11,6 +11,8 @@ Course content is organized by day/module:
 - `day_4/`: Evaluation of RAG systems and synthetic data generation.
 - `day_5/`: Advanced retrieval techniques and synthetic data generation for RAG evaluation.
 - `day_6/`: Agentic architectures using LangGraph and OpenAI Agents SDK.
+- `day_9/`: Advanced Applications and Integrations (see below).
+- `day_9-A2A/`: Agent-to-Agent (A2A) Communication & Collaboration.
 
 ## How to Use
 
@@ -91,14 +93,26 @@ Learn how to build stateful, multi-agent applications using LangGraph and the Op
 
 ---
 
+### Day 9: Advanced Applications and Integrations
+
+- **Integration Focus:** Explore integration of LLM-powered applications with external APIs, databases, and workflows.
+- **Custom Tools & Plugins:** Build and deploy custom tools and plugins for enhancing LLM capabilities.
+- **Case Studies:** Real-world examples of integrating LLMs into business and research pipelines.
+- **Security & Compliance:** Considerations for deploying LLMs in production environments.
+
+---
+
+### Day 9-A2A: Agent-to-Agent (A2A) Communication & Collaboration
+
+- **A2A Architectures:** Design and implement agent-to-agent communication using LLMs.
+- **Protocols:** Explore message passing, negotiation, and multi-agent collaboration strategies.
+- **Practical Example:** Build a multi-agent workflow where agents share knowledge and coordinate tasks.
+- **Evaluation:** Assess performance and robustness of agentic collaborations.
+
+---
+
 ## Requirements & Setup
 
 - Install dependencies using `uv sync`.
 - API keys required for OpenAI, Cohere, and LangChain/LangSmith (see notebook instructions).
 - Notebooks are self-contained and can be run in sequence or individually.
-
-## Contribution
-
-Want to improve or extend the course? Pull requests and issues are welcome!
-
----
